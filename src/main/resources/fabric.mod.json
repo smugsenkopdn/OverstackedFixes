@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "overstackedfixes",
+	"version": "${version}",
+	"name": "Overstacked Fixes",
+	"description": "Supplies various fixes for overstacked items, reimplementing old functionality, and adding new functionality, all in a highly configurable way.",
+	"authors": [
+		"smugsenkopdn / pifire / senkowo / Joncar66"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/overstackedfixes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pifire.overstackedfixes.OverstackedFixes"
+		],
+		"fabric-datagen": [
+			"pifire.overstackedfixes.OverstackedFixesDataGenerator"
+		],
+        "client": [
+            "pifire.overstackedfixes.OverstackedFixesClient"
+        ]
+	},
+	"mixins": [
+		"overstackedfixes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
