@@ -22,6 +22,9 @@
 		],
         "client": [
             "pifire.overstackedfixes.OverstackedFixesClient"
+        ],
+        "modmenu": [
+            "pifire.overstackedfixes.integrations.ModMenuIntegration"
         ]
 	},
 	"mixins": [
@@ -29,8 +32,11 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
+        "fabric-api": "*",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
-	}
+        "modmenu": ">=11.0.4",
+        "cloth-config": "*",
+        "yet_another_config_lib_v3": "*"
+    }
 }
