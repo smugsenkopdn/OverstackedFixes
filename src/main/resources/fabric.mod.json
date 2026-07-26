@@ -8,9 +8,9 @@
 		"smugsenkopdn / pifire / senkowo / Joncar66"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/smugsenkopdn/OverstackedFixes"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/overstackedfixes/icon.png",
 	"environment": "*",
 	"entrypoints": {
